@@ -15,6 +15,7 @@ class App extends React.Component{
          <Navbar />
          <div id='container'>
           <Projects />
+          asdasd
          </div>
          <Footer />
       </div>
