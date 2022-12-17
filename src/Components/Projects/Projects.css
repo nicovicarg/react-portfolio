@@ -1,0 +1,68 @@
+/* Mobile*/
+
+@media (max-width: 677px){
+ 
+}
+
+/* Tablet*/
+@media (min-width: 678px) and (max-width: 1439px){
+
+}
+
+/* Desktop*/
+
+@media (min-width: 1440px){
+  #container-containerXD {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #E7F6F2;
+  }
+  #pro-container {
+    width: 70%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #pro-container span {
+    font-size: 5vw;
+    padding: 1vw; 
+    color:  #395B64;
+  }
+  #info-proyecto {
+    width: 60%;
+    height: 50vh;
+    padding:2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+  }
+  #foto-proyecto {
+    background-color: #395B64;;
+    width: 40%;
+    height: 80%;
+    font-size: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #description {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  #contenedor-cajitas {
+    display: flex;
+  }
+  #cajita {
+    width: 15px;
+    height: 15px;
+    background-color: #395B64;
+    margin: 5px;
+  }
+}
